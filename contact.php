@@ -81,8 +81,8 @@ if ($_POST) {
 							<ul class="meninmenu d-flex justify-content-start">
 								<li class="drop with--one--item"><a href="index.php">Home</a></li>
 								<li class="drop"><a href="#">Registro</a>
-							  <li class="drop"><a href="shop-grid.html">Iniciar sesion</a>
-								<li class="drop"><a href="shop-grid.html">Perfil</a>
+							  <li class="drop"><a href="shop-grid.php">Iniciar sesion</a>
+								<li class="drop"><a href="shop-grid.php">Perfil</a>
 								<li class="drop with--one--item"><a href="faq.php">F.A.Q</a>
 								<li><a href="contact.php">Contacto</a></li>
 							</ul>
@@ -131,16 +131,16 @@ if ($_POST) {
 											<span>$66.00</span>
 										</div>
 										<div class="mini_action checkout">
-											<a class="checkout__btn" href="cart.html">Go to Checkout</a>
+											<a class="checkout__btn" href="cart.php">Go to Checkout</a>
 										</div>
 										<div class="single__items">
 											<div class="miniproduct">
 												<div class="item01 d-flex">
 													<div class="thumb">
-														<a href="product-details.html"><img src="images/product/sm-img/1.jpg" alt="product images"></a>
+														<a href="product-details.php"><img src="images/product/sm-img/1.jpg" alt="product images"></a>
 													</div>
 													<div class="content">
-														<h6><a href="product-details.html">Voyage Yoga Bag</a></h6>
+														<h6><a href="product-details.php">Voyage Yoga Bag</a></h6>
 														<span class="prize">$30.00</span>
 														<div class="product_prize d-flex justify-content-between">
 															<span class="qun">Qty: 01</span>
@@ -153,10 +153,10 @@ if ($_POST) {
 												</div>
 												<div class="item01 d-flex mt--20">
 													<div class="thumb">
-														<a href="product-details.html"><img src="images/product/sm-img/3.jpg" alt="product images"></a>
+														<a href="product-details.php"><img src="images/product/sm-img/3.jpg" alt="product images"></a>
 													</div>
 													<div class="content">
-														<h6><a href="product-details.html">Impulse Duffle</a></h6>
+														<h6><a href="product-details.php">Impulse Duffle</a></h6>
 														<span class="prize">$40.00</span>
 														<div class="product_prize d-flex justify-content-between">
 															<span class="qun">Qty: 03</span>
@@ -169,10 +169,10 @@ if ($_POST) {
 												</div>
 												<div class="item01 d-flex mt--20">
 													<div class="thumb">
-														<a href="product-details.html"><img src="images/product/sm-img/2.jpg" alt="product images"></a>
+														<a href="product-details.php"><img src="images/product/sm-img/2.jpg" alt="product images"></a>
 													</div>
 													<div class="content">
-														<h6><a href="product-details.html">Compete Track Tote</a></h6>
+														<h6><a href="product-details.php">Compete Track Tote</a></h6>
 														<span class="prize">$40.00</span>
 														<div class="product_prize d-flex justify-content-between">
 															<span class="qun">Qty: 03</span>
@@ -186,7 +186,7 @@ if ($_POST) {
 											</div>
 										</div>
 										<div class="mini_action cart">
-											<a class="cart__btn" href="cart.html">View and edit cart</a>
+											<a class="cart__btn" href="cart.php">View and edit cart</a>
 										</div>
 									</div>
 								</div>
@@ -258,38 +258,38 @@ if ($_POST) {
 					<div class="col-lg-12 d-none">
 						<nav class="mobilemenu__nav">
 							<ul class="meninmenu">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Pages</a>
 									<ul>
-										<li><a href="about.html">About Page</a></li>
-										<li><a href="portfolio.html">Portfolio</a>
+										<li><a href="about.php">About Page</a></li>
+										<li><a href="portfolio.php">Portfolio</a>
 											<ul>
-												<li><a href="portfolio.html">Portfolio</a></li>
-												<li><a href="portfolio-details.html">Portfolio Details</a></li>
+												<li><a href="portfolio.php">Portfolio</a></li>
+												<li><a href="portfolio-details.php">Portfolio Details</a></li>
 											</ul>
 										</li>
-										<li><a href="my-account.html">My Account</a></li>
-										<li><a href="cart.html">Cart Page</a></li>
-										<li><a href="checkout.html">Checkout Page</a></li>
-										<li><a href="wishlist.html">Wishlist Page</a></li>
-										<li><a href="error404.html">404 Page</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="team.html">Team Page</a></li>
+										<li><a href="my-account.php">My Account</a></li>
+										<li><a href="cart.php">Cart Page</a></li>
+										<li><a href="checkout.php">Checkout Page</a></li>
+										<li><a href="wishlist.php">Wishlist Page</a></li>
+										<li><a href="error404.php">404 Page</a></li>
+										<li><a href="faq.php">Faq Page</a></li>
+										<li><a href="team.php">Team Page</a></li>
 									</ul>
 								</li>
-								<li><a href="shop-grid.html">Shop</a>
+								<li><a href="shop-grid.php">Shop</a>
 									<ul>
-										<li><a href="shop-grid.html">Shop Grid</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
+										<li><a href="shop-grid.php">Shop Grid</a></li>
+										<li><a href="single-product.php">Single Product</a></li>
 									</ul>
 								</li>
-								<li><a href="blog.html">Blog</a>
+								<li><a href="blog.php">Blog</a>
 									<ul>
-										<li><a href="blog.html">Blog Page</a></li>
-										<li><a href="blog-details.html">Blog Details</a></li>
+										<li><a href="blog.php">Blog Page</a></li>
+										<li><a href="blog-details.php">Blog Details</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.php">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -324,7 +324,7 @@ if ($_POST) {
                         <div class="bradcaump__inner text-center">
                         	<h2 class="bradcaump-title">Contacto</h2>
                             <nav class="bradcaump-content">
-                              <a class="breadcrumb_item" href="index.html">Home</a>
+                              <a class="breadcrumb_item" href="index.php">Home</a>
                               <span class="brd-separetor">/</span>
                               <span class="breadcrumb_item active">Contacto</span>
                             </nav>
@@ -415,7 +415,7 @@ if ($_POST) {
 						<div class="col-lg-12">
 							<div class="footer__widget footer__menu">
 								<div class="ft__logo">
-									<a href="index.html">
+									<a href="index.php">
 											<img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/318/2342459318_d7484af5-64db-4947-976b-1069df3db2a5.png?cb=1571669948" alt="logo images">
 									</a>
 									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages</p>
