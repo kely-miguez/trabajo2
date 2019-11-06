@@ -81,7 +81,7 @@ $registroCorrecto=0;
     if($errores['nombres']==""&&$errores['apellido']==""&&$errores['email']==""&&$errores['password']==""){
 
 
-     //si salio todo bien redirecciono y guardo en un json
+     //si salio todo ok  redirecciona y se guarda en un json
      $hash1=password_hash($usuario['password'],PASSWORD_DEFAULT);
      $hash2=password_hash($usuario['confirmacion'],PASSWORD_DEFAULT);
      $usuario['password']=$hash1;
@@ -111,7 +111,7 @@ $registroCorrecto=0;
   </head>
   <body>
 
-    <?php require_once('header.php'); ?>
+    <?php //require_once('header.php'); ?>
 
     <div class="container">
       <h4>Formulario de Registro</h4>
