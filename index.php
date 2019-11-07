@@ -49,9 +49,9 @@
 						<nav class="mainmenu__nav">
 							<ul class="meninmenu d-flex justify-content-start">
 								<li class="drop with--one--item"><a href="index.php">Home</a></li>
-								<li class="drop"><a href="#">Registro</a>
+								<li class="drop"><a href="registro.php">Registro</a>
 							  <li class="drop"><a href="login.php">Iniciar sesion</a>
-								<li class="drop"><a href="shop-grid.php">Perfil</a>
+								<li class="drop"><a href="perfil.php">Perfil</a>
 								<li class="drop with--one--item"><a href="faq.php">F.A.Q</a>
 								<li><a href="contact.php">Contacto</a></li>
 							</ul>
@@ -283,7 +283,7 @@
 		            				<h2>Tu <span> tienda </span></h2>
 		            				<h2> de <span> moda </span></h2>
 		            				<h2> infantil <span> online </span></h2>
-				                   	<a class="shopbtn" href="#">shop now</a>
+
 		            			</div>
 	            			</div>
 	            		</div>
@@ -301,7 +301,7 @@
 		            				<h2>Buy <span>your </span></h2>
 		            				<h2>favourite <span>Book </span></h2>
 		            				<h2>from <span>Here </span></h2>
-				                   	<a class="shopbtn" href="#">shop now</a>
+
 		            			</div>
 	            			</div>
 	            		</div>
@@ -328,7 +328,7 @@
 						<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 							<div class="product__thumb">
 								<a class="first__img" href="single-product.php"><img src="images/books/100 (15).jpg" alt="product image"></a>
-								<a class="second__img animation1" href="single-product.php"><img src="images/books/100 (12).jpg" alt="product image"></a>
+								<a class="second__img animation1" href="single-product.php"><img src="images/books/100 (15).jpg" alt="product image"></a>
 								<div class="hot__box">
 									<span class="hot-label">PRODUCTO 1</span>
 								</div>
@@ -576,17 +576,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row mt--50">
-					<div class="col-md-12 col-lg-12 col-sm-12">
-						<div class="product__nav nav justify-content-center" role="tablist">
-                            <a class="nav-item nav-link active" data-toggle="tab" href="#nav-all" role="tab">ALL</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-biographic" role="tab">BIOGRAPHIC</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-adventure" role="tab">ADVENTURE</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-children" role="tab">CHILDREN</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-cook" role="tab">COOK</a>
-                        </div>
-					</div>
-				</div>
+
 				<div class="tab__container mt--60">
 					<!-- Start Single Tab Content -->
 					<div class="row single__tab tab-pane fade show active" id="nav-all" role="tabpanel">
@@ -608,16 +598,7 @@
 												<li>$50.00</li>
 												<li class="old_prize">$35.00</li>
 											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.php"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="wishlist" href="wishlist.php"><i class="bi bi-shopping-cart-full"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-heart-beat"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
+
 											<div class="product__hover--content">
 												<ul class="rating d-flex">
 													<li class="on"><i class="fa fa-star-o"></i></li>

@@ -629,51 +629,47 @@ a {
   margin-bottom: -30px; }
 
 /* Background Image */
-.bg-image--1 {
+.bg-image--1 {/*home primera imagen*/
   background-image: url(images/bg/98.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-.bg-image--2 {
-  background-image: url(images/bg/2.jpg);
+  .bg-image--7 {/*home segunda imagen*/
+    background-image: url(images/bg/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    .bg-image--4 {/*faq imagen portada*/
+      background-image: url(images/bg/duda.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; }
+      .bg-image--6 {/*contacto imagen portada*/
+        background-image: url(images/bg/contac.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; }
+        .bg-image--3 {/*iniciar sesion imagen portada*/
+          background-image: url(images/bg/loginfoto.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center; }
+.bg-image--2 {/*registro imagen portada*/
+  background-image: url(images/bg/registro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-.bg-image--3 {
-  background-image: url(images/bg/3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-.bg-image--4 {
-  background-image: url(images/bg/duda.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+
+
 .bg-image--5 {
-  background-image: url(images/bg/5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-.bg-image--6 {
   background-image: url(images/bg/contac.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-.bg-image--7 {
-  background-image: url(images/bg/7.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-.bg-image--8 {
-  background-image: url(images/bg/8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-.bg-image--9 {
-  background-image: url(images/bg/9.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+
+
+
+
 
 /* spacing */
 .mt--20 {
@@ -922,7 +918,7 @@ a {
   .xs-pb-0 {
     padding-bottom: 0 !important; } }
 
-/* Overlay styles */
+/* estilo superpuesto */
 [data-overlay], [data-black-overlay] {
   position: relative; }
 [data-overlay] > div, [data-overlay] > *, [data-black-overlay] > div, [data-black-overlay] > * {
@@ -961,11 +957,9 @@ a {
 [data-overlay="10"]:before, [data-black-overlay="10"]:before {
   opacity: 1; }
 
-/*******************
-Elements Styles
-********************/
+
 /*------------------------------
-  Button Styles
+  estilo de botones
 ------------------------------*/
 .shopbtn {
   color: #2e2e2e;
@@ -994,7 +988,7 @@ Elements Styles
   z-index: 9 !important; }
 
 /*-------------------------------
-  Section Title Styles
+  estilo de titulos
 ---------------------------------*/
 .section__title {
   margin: 0 auto;
@@ -1049,7 +1043,7 @@ Elements Styles
 
  }
 /*------------------------------
-  Slide Activation Styles
+  estilo de diapositivas
 ------------------------------*/
 .arrows_style {
   position: relative; }
@@ -1176,7 +1170,7 @@ Elements Styles
   color: #3cc8df; }
 
 /*------------------------------
-  Social Icon Styles
+  estilo de iconos sociales
 ------------------------------*/
 .social__net li {
   margin-right: 10px; }
@@ -6257,8 +6251,8 @@ section.wn_contact_area {
 }
 }
 
-
-iniciar sesion Styles
+/*---------------------------
+login Styles
 ----------------------------*/
 .login__title {
 color: #2e2e2e;
