@@ -1,3 +1,6 @@
+<?php session_start();
+ ?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -20,6 +23,7 @@
  <link rel="stylesheet" href="css/bootstrap.min.css">
  <link rel="stylesheet" href="css/plugins.css">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="login.css">
  <link rel="stylesheet" href="css/custom.css">
  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
  </head>
@@ -298,7 +302,7 @@
 
 
 <?php
-session_start();
+
 $registroCorrecto=0;
   $usuario=[
     'nombres' => '',
