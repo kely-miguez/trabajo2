@@ -72,7 +72,7 @@
                             <nav class="bradcaump-content">
                               <a class="breadcrumb_item" href="index.php">Home</a>
                               <span class="brd-separetor">/</span>
-                              <span class="breadcrumb_item active">Faq</span>
+                              <span class="breadcrumb_item active">F.A.Q</span>
                             </nav>
                         </div>
                     </div>

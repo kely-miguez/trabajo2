@@ -320,7 +320,7 @@ session_start();
   		</div>
   		<!-- End Search Popup -->
           <!-- Start Bradcaump area -->
-          <div class="ht__bradcaump__area bg-image--6">
+          <div class="ht__bradcaump__area bg-image--3">
               <div class="container">
                   <div class="row">
                       <div class="col-lg-12">
@@ -340,7 +340,8 @@ session_start();
       ?>
 
     <div class="container">
-      <h4>Inicie Sesión</h4>
+      <h4>Iniciar Sesión</h4>
+
       <?php
       if($_POST){
       if($_SESSION['selogeo']!=true && empty($errores)){
@@ -370,9 +371,7 @@ session_start();
 
 
 
-    <?php
-    //incluyo el footer:
-     ?>
+
 
 
 

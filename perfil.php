@@ -1,5 +1,5 @@
 <?php
-    
+
     //esta la cookie email creada
     if (isset($_COOKIE['email'])) {
         //aqui logeo al usuario
@@ -22,7 +22,16 @@
 
     echo 'Bienvenido ' . $_SESSION['email'];
 ?>
-<form class="" action="logout.php" method="post">
-    <button type="submit" name="button">Deslogearme</button>
-</form>
-<a href="logout.php">Salir</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="logout.php" method="post">
+        <button type="submit" name="button">Deslogearme</button>
+    </form>
+    <a href="logout.php">Salir</a>
+  </body>
+</html>
