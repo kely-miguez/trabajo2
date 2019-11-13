@@ -18,13 +18,13 @@ session_start();
       $errores[]="Ingrese su contraseña";
     }
     if(empty($errores)){
+
     $usuariosjson=FILE_GET_CONTENTS('usuario.json');
     $datosusuarios=json_decode($usuariosjson,true);
 
-
   }
 }
- if($_SESSION['selogeo']!=true){
+ if(isset($_SESSION['selogeo'])){
    $_SESSION['email']='';
    $_SESSION['nombres']='';
    $_SESSION['selogeo']='';
@@ -34,7 +34,7 @@ session_start();
     header('location:perfil.php');
   }
   else{
-    if($_SESSION['selogeo']==true){
+    if(isset($_SESSION['selogeo'])){
       header('location:perfil.php');
     }
   }
@@ -49,7 +49,7 @@ session_start();
  	<meta name="description" content="">
  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
- 	<!-- Favicons -->
+
  	<link rel="shortcut icon" href="images/favicon.ico">
  	<link rel="apple-touch-icon" href="images/icon.png">
 
@@ -59,6 +59,7 @@ session_start();
  	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
  	<!-- Stylesheets -->
+  <link rel="stylesheet" href="perfil.php">
  	<link rel="stylesheet" href="css/bootstrap.min.css">
  	<link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="style.css">

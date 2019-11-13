@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Favicons -->
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/icon.png">
 
@@ -317,7 +317,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section__title text-center">
-							<h2 class="title__be--2"> Nuevos <span class="color--theme">Productos</span></h2>
+							<h2 class="title__be--2"> VARIOS <span class="color--theme">Productos</span></h2>
 					 </div>
 					</div>
 				</div>
@@ -571,7 +571,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section__title text-center">
-							<h2 class="title__be--2"> Mas <span class="color--theme">productos</span></h2>
+							<h2 class="title__be--2"> NUEVOS <span class="color--theme">productos</span></h2>
 							<p>Variedad de productos de niña y niño a tu dispocision</p>
 						</div>
 					</div>
