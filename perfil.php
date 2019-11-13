@@ -30,7 +30,7 @@
   </head>
   <body>
     <form class="" action="logout.php" method="post">
-        <button type="submit" name="button">Deslogearme</button>
+        <button type="submit" name="button">Cerrar Sesion</button>
     </form>
     <a href="logout.php">Salir</a>
   </body>

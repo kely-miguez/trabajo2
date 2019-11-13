@@ -331,7 +331,7 @@ $registroCorrecto=0;
            $errorAvatar = 'archivo de formato invalido';
        } else {
            $usuario['avatar'] = $_POST['email'] . '.' . $ext;
-           //voy a mover el archivo del temporal a mi carpeta avatars
+
            move_uploaded_file($_FILES['avatar']['tmp_name'], 'avatars/' . $usuario['avatar']);
        }
    }
