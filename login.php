@@ -25,6 +25,7 @@ session_start();
   }
 }
  if(isset($_SESSION['selogeo'])){
+
    $_SESSION['email']='';
    $_SESSION['nombres']='';
    $_SESSION['selogeo']='';
