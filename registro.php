@@ -323,13 +323,10 @@ $registroCorrecto=0;
     if($errores['nombres']==""&&$errores['apellido']==""&&$errores['email']==""&&$errores['password']==""){
 
 
-     //si salio todo ok  redirecciona y se guarda en un json
      $hash1=password_hash($usuario['password'],PASSWORD_DEFAULT);
-     $hash2=password_hash($usuario['confirmacion'],PASSWORD_DEFAULT);
      $usuario['password']=$hash1;
      $usuario['confirmacion']=$hash2;
 
-     //Guardo en json mi usuario, lo codifico en json denuevo y lo subo:
 
      $usuarios[] = $usuario;
      $registroCorrecto = 1;
@@ -343,7 +340,7 @@ $registroCorrecto=0;
 
 
 
-    <?php //require_once('header.php'); ?>
+    <?php  ?>
 
     <div class="container">
       <h4>Registrate/Dayross</h4>
