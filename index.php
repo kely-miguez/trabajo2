@@ -138,76 +138,8 @@
 								<!-- End Shopping Cart -->
 							</li>
 
-														<div class="searchbar__content setting__block">
-															<div class="content-inner">
-																<div class="switcher-currency">
-																	<strong class="label switcher-label">
-																		<span>Currency</span>
-																	</strong>
-																	<div class="switcher-options">
-																		<div class="switcher-currency-trigger">
-																			<span class="currency-trigger">USD - US Dollar</span>
-																			<ul class="switcher-dropdown">
-																				<li>GBP - British Pound Sterling</li>
-																				<li>EUR - Euro</li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<div class="switcher-currency">
-																	<strong class="label switcher-label">
-																		<span>Language</span>
-																	</strong>
-																	<div class="switcher-options">
-																		<div class="switcher-currency-trigger">
-																			<span class="currency-trigger">English01</span>
-																			<ul class="switcher-dropdown">
-																				<li>English02</li>
-																				<li>English03</li>
-																				<li>English04</li>
-																				<li>English05</li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<div class="switcher-currency">
-																	<strong class="label switcher-label">
-																		<span>Select Store</span>
-																	</strong>
-																	<div class="switcher-options">
-																		<div class="switcher-currency-trigger">
-																			<span class="currency-trigger">Fashion Store</span>
-																			<ul class="switcher-dropdown">
-																				<li>Furniture</li>
-																				<li>Shoes</li>
-																				<li>Speaker Store</li>
-																				<li>Furniture</li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<div class="switcher-currency">
-																	<strong class="label switcher-label">
-																		<span>My Account</span>
-																	</strong>
-																	<div class="switcher-options">
-																		<div class="switcher-currency-trigger">
-																			<div class="setting__menu">
-																				<span><a href="#">Compare Product</a></span>
-																				<span><a href="#">My Account</a></span>
-																				<span><a href="#">My Wishlist</a></span>
-																				<span><a href="#">Sign In</a></span>
-																				<span><a href="#">Create An Account</a></span>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-										</div>
+
+
 				<!-- Start Mobile Menu -->
 				<div class="row d-none">
 					<div class="col-lg-12 d-none">
@@ -216,20 +148,12 @@
 								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Pages</a>
 									<ul>
-										<li><a href="about.php">About Page</a></li>
-										<li><a href="portfolio.php">Portfolio</a>
-											<ul>
-												<li><a href="portfolio.php">Portfolio</a></li>
-												<li><a href="portfolio-details.php">Portfolio Details</a></li>
-											</ul>
-										</li>
-										<li><a href="my-account.php">My Account</a></li>
+
+										
 										<li><a href="cart.php">Cart Page</a></li>
-										<li><a href="checkout.php">Checkout Page</a></li>
-										<li><a href="wishlist.php">Wishlist Page</a></li>
-										<li><a href="error404.php">404 Page</a></li>
+
 										<li><a href="faq.php">Faq Page</a></li>
-										<li><a href="team.php">Team Page</a></li>
+
 									</ul>
 								</li>
 								<li><a href="shop-grid.php">Shop</a>
@@ -238,12 +162,7 @@
 										<li><a href="single-product.php">Single Product</a></li>
 									</ul>
 								</li>
-								<li><a href="blog.php">Blog</a>
-									<ul>
-										<li><a href="blog.php">Blog Page</a></li>
-										<li><a href="blog-details.php">Blog Details</a></li>
-									</ul>
-								</li>
+
 								<li><a href="contact.php">Contact</a></li>
 							</ul>
 						</nav>
@@ -561,11 +480,7 @@
 				<!-- End Single Tab Content -->
 			</div>
 		</section>
-		<!-- Start BEst Seller Area -->
-		<!-- Start NEwsletter Area -->
 
-		<!-- End NEwsletter Area -->
-		<!-- Start Best Seller Area -->
 		<section class="wn__bestseller__area bg--white pt--80  pb--30">
 			<div class="container">
 				<div class="row">
@@ -2603,9 +2518,7 @@
 			</div>
 		</section>
 		<!-- Start BEst Seller Area -->
-		<!-- Start Recent Post Area -->
 
-		<!-- End Recent Post Area -->
 		<!-- Best Sale Area -->
 
 		<!-- Best Sale Area Area -->

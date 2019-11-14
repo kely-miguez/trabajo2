@@ -195,67 +195,7 @@ session_start();
   								</div>
   								<!-- End Shopping Cart -->
   							</li>
-  							<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
-  								<div class="searchbar__content setting__block">
-  									<div class="content-inner">
-  										<div class="switcher-currency">
-  											<strong class="label switcher-label">
-  												<span>Currency</span>
-  											</strong>
-  											<div class="switcher-options">
-  												<div class="switcher-currency-trigger">
-  													<span class="currency-trigger">USD - US Dollar</span>
-  													<ul class="switcher-dropdown">
-  														<li>GBP - British Pound Sterling</li>
-  														<li>EUR - Euro</li>
-  													</ul>
-  												</div>
-  											</div>
-  										</div>
-  										<div class="switcher-currency">
-  											<strong class="label switcher-label">
-  												<span>Language</span>
-  											</strong>
 
-  										</div>
-  										<div class="switcher-currency">
-  											<strong class="label switcher-label">
-  												<span>Select Store</span>
-  											</strong>
-  											<div class="switcher-options">
-  												<div class="switcher-currency-trigger">
-  													<span class="currency-trigger">Fashion Store</span>
-  													<ul class="switcher-dropdown">
-  														<li>Furniture</li>
-  														<li>Shoes</li>
-  														<li>Speaker Store</li>
-  														<li>Furniture</li>
-  													</ul>
-  												</div>
-  											</div>
-  										</div>
-  										<div class="switcher-currency">
-  											<strong class="label switcher-label">
-  												<span>My Account</span>
-  											</strong>
-  											<div class="switcher-options">
-  												<div class="switcher-currency-trigger">
-  													<div class="setting__menu">
-  														<span><a href="#">Compare Product</a></span>
-  														<span><a href="#">My Account</a></span>
-  														<span><a href="#">My Wishlist</a></span>
-  														<span><a href="#">Sign In</a></span>
-  														<span><a href="#">Create An Account</a></span>
-  													</div>
-  												</div>
-  											</div>
-  										</div>
-  									</div>
-  								</div>
-  							</li>
-  						</ul>
-  					</div>
-  				</div>
   				<!-- Start Mobile Menu -->
   				<div class="row d-none">
   					<div class="col-lg-12 d-none">
@@ -271,13 +211,12 @@ session_start();
   												<li><a href="portfolio-details.php">Portfolio Details</a></li>
   											</ul>
   										</li>
-  										<li><a href="my-account.php">My Account</a></li>
+  										
   										<li><a href="cart.php">Cart Page</a></li>
-  										<li><a href="checkout.php">Checkout Page</a></li>
-  										<li><a href="wishlist.php">Wishlist Page</a></li>
-  										<li><a href="error404.php">404 Page</a></li>
+
+
   										<li><a href="faq.php">Faq Page</a></li>
-  										<li><a href="team.php">Team Page</a></li>
+
   									</ul>
   								</li>
   								<li><a href="shop-grid.php">Shop</a>
@@ -286,12 +225,7 @@ session_start();
   										<li><a href="single-product.php">Single Product</a></li>
   									</ul>
   								</li>
-  								<li><a href="blog.php">Blog</a>
-  									<ul>
-  										<li><a href="blog.php">Blog Page</a></li>
-  										<li><a href="blog-details.php">Blog Details</a></li>
-  									</ul>
-  								</li>
+
   								<li><a href="login.php">Iniciar sesion</a></li>
   							</ul>
   						</nav>
