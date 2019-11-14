@@ -50,7 +50,7 @@
 						<nav class="mainmenu__nav">
 							<ul class="meninmenu d-flex justify-content-start">
 								<li class="drop with--one--item"><a href="index.php">Home</a></li>
-								<li class="drop"><a href="#">Registro</a>
+								<li class="drop"><a href="registro.php">Registro</a>
 							  <li class="drop"><a href="login.php">Iniciar sesion</a>
 								<li class="drop"><a href="shop-grid.php">Perfil</a>
 								<li class="drop with--one--item"><a href="faq.php">F.A.Q</a>
