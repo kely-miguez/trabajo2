@@ -1,3 +1,6 @@
+<?php session_start();
+ ?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -20,6 +23,7 @@
  <link rel="stylesheet" href="css/bootstrap.min.css">
  <link rel="stylesheet" href="css/plugins.css">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="login.css">
  <link rel="stylesheet" href="css/custom.css">
  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
  </head>
@@ -237,7 +241,7 @@
 
 
 <?php
-session_start();
+
 $registroCorrecto=0;
   $usuario=[
     'nombres' => '',
@@ -259,14 +263,14 @@ $registroCorrecto=0;
   $errorEmail='';
  if($_POST){
    if ($_FILES['avatar']['error'] === 0) {
-       //pido la extension del archivo
+
        $ext = pathinfo($_FILES['avatar']['name'], PATHINFO_EXTENSION);
 
        if ($ext != 'png' && $ext != 'jpg' && $ext != 'jpeg') {
            $errorAvatar = 'archivo de formato invalido';
        } else {
            $usuario['avatar'] = $_POST['email'] . '.' . $ext;
-           //voy a mover el archivo del temporal a mi carpeta avatars
+
            move_uploaded_file($_FILES['avatar']['tmp_name'], 'avatars/' . $usuario['avatar']);
        }
    }
@@ -286,7 +290,7 @@ $registroCorrecto=0;
      if($_POST['email']!=''){
 
        $usuario['email'] = $_POST['email'];
-       //VER QUE EL EMAIL NO SE ENCUENTRE YA REGISTRADO, SINO ENVIAR OTRO ERROR "EL EMAIL YA SE ENCUENTRA REGISTRADO"
+
 
        $archivo=FILE_GET_CONTENTS('usuario.json');
        $usuarios=json_decode($archivo,true);
@@ -342,7 +346,7 @@ $registroCorrecto=0;
     <?php //require_once('header.php'); ?>
 
     <div class="container">
-      <h4>Formulario de Registro</h4>
+      <h4>Registrate/Dayross</h4>
 
       <form class="" action="registro.php" method="post" enctype="multipart/form-data">
         <div class="error"><?php echo $errores['nombres']; ?></div>
