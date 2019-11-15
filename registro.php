@@ -59,6 +59,135 @@
                    </div>
              </nav>
            </div>
+<<<<<<< HEAD
+=======
+           <div class="col-md-8 col-sm-8 col-5 col-lg-2">
+             <ul class="header__sidebar__right d-flex justify-content-end align-items-center">
+               <li class="shop_search"><a class="search__active" href="#"></a></li>
+               <li class="wishlist"><a href="#"></a></li>
+               <li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun"></span></a>
+                 <!-- Start Shopping Cart -->
+                 <div class="block-minicart minicart__active">
+                   <div class="minicart-content-wrapper">
+                     <div class="micart__close">
+                       <span>close</span>
+                     </div>
+                     <div class="items-total d-flex justify-content-between">
+                       <span>3 items</span>
+                       <span>Cart Subtotal</span>
+                     </div>
+                     <div class="total_amount text-right">
+                       <span>$66.00</span>
+                     </div>
+                     <div class="mini_action checkout">
+                       <a class="checkout__btn" href="cart.php">Go to Checkout</a>
+                     </div>
+                     <div class="single__items">
+                       <div class="miniproduct">
+                         <div class="item01 d-flex">
+                           <div class="thumb">
+                             <a href="product-details.php"><img src="images/product/sm-img/1.jpg" alt="product images"></a>
+                           </div>
+                           <div class="content">
+                             <h6><a href="product-details.php">Voyage Yoga Bag</a></h6>
+                             <span class="prize">$30.00</span>
+                             <div class="product_prize d-flex justify-content-between">
+                               <span class="qun">Qty: 01</span>
+                               <ul class="d-flex justify-content-end">
+                                 <li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
+                                 <li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
+                               </ul>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="item01 d-flex mt--20">
+                           <div class="thumb">
+                             <a href="product-details.php"><img src="images/product/sm-img/3.jpg" alt="product images"></a>
+                           </div>
+                           <div class="content">
+                             <h6><a href="product-details.php">Impulse Duffle</a></h6>
+                             <span class="prize">$40.00</span>
+                             <div class="product_prize d-flex justify-content-between">
+                               <span class="qun">Qty: 03</span>
+                               <ul class="d-flex justify-content-end">
+                                 <li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
+                                 <li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
+                               </ul>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="item01 d-flex mt--20">
+                           <div class="thumb">
+                             <a href="product-details.php"><img src="images/product/sm-img/2.jpg" alt="product images"></a>
+                           </div>
+                           <div class="content">
+                             <h6><a href="product-details.php">Compete Track Tote</a></h6>
+                             <span class="prize">$40.00</span>
+                             <div class="product_prize d-flex justify-content-between">
+                               <span class="qun">Qty: 03</span>
+                               <ul class="d-flex justify-content-end">
+                                 <li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
+                                 <li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
+                               </ul>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="mini_action cart">
+                       <a class="cart__btn" href="cart.php">View and edit cart</a>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- End Shopping Cart -->
+               </li>
+
+         <!-- Start Mobile Menu -->
+         <div class="row d-none">
+           <div class="col-lg-12 d-none">
+             <nav class="mobilemenu__nav">
+               <ul class="meninmenu">
+                 <li><a href="index.php">Home</a></li>
+                 <li><a href="#">Pages</a>
+                   <ul>
+                     <li><a href="about.php">About Page</a></li>
+                     <li><a href="portfolio.php">Portfolio</a>
+                       <ul>
+                         <li><a href="portfolio.php">Portfolio</a></li>
+                         <li><a href="portfolio-details.php">Portfolio Details</a></li>
+                       </ul>
+                     </li>
+
+                     <li><a href="cart.php">Cart Page</a></li>
+
+
+                     <li><a href="faq.php">Faq Page</a></li>
+
+                   </ul>
+                 </li>
+                 <li><a href="shop-grid.php">Shop</a>
+                   <ul>
+                     <li><a href="shop-grid.php">Shop Grid</a></li>
+                     <li><a href="single-product.php">Single Product</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="blog.php">Blog</a>
+                   <ul>
+                     <li><a href="blog.php">Blog Page</a></li>
+                     <li><a href="blog-details.php">Blog Details</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="registro.php">Registro</a></li>
+               </ul>
+             </nav>
+           </div>
+         </div>
+         <!-- End Mobile Menu -->
+               <div class="mobile-menu d-block d-lg-none">
+               </div>
+               <!-- Mobile Menu -->
+       </div>
+>>>>>>> 68a4d45bbd1d9fdf0e397eb70e935f0774d5fa32
      </header>
 
          <div class="ht__bradcaump__area bg-image--2">
@@ -161,13 +290,10 @@ $registroCorrecto=0;
     if($errores['nombres']==""&&$errores['apellido']==""&&$errores['email']==""&&$errores['password']==""){
 
 
-     //si salio todo ok  redirecciona y se guarda en un json
      $hash1=password_hash($usuario['password'],PASSWORD_DEFAULT);
-     $hash2=password_hash($usuario['confirmacion'],PASSWORD_DEFAULT);
      $usuario['password']=$hash1;
      $usuario['confirmacion']=$hash2;
 
-     //Guardo en json mi usuario, lo codifico en json denuevo y lo subo:
 
      $usuarios[] = $usuario;
      $registroCorrecto = 1;
@@ -181,7 +307,7 @@ $registroCorrecto=0;
 
 
 
-    <?php //require_once('header.php'); ?>
+    <?php  ?>
 
     <div class="container">
       <h4>FORMULARIO DE REGISTRO</h4>
@@ -196,7 +322,7 @@ $registroCorrecto=0;
         <div class="error"><?php echo $errores['password']; ?></div>
         <input class="controles" type="password" name="password" value="" placeholder="Ingrese su contraseña">
 
-        <input class="controles" type="password" name="confirmacion" value="" placeholder="Vuelva a ingresar su contraseña">
+        <input class="controles" type="password" name="confirmacion" value="" placeholder="Confirme su contraseña">
         <div class="form-group">
           <label for="avatar">Subir avatar</label>
           <input type="file"  id="avatar" name="avatar">

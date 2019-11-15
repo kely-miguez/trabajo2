@@ -6,8 +6,8 @@ class Usuario{
   private $password;
 
 public function __contruct(string $email, string $pass){
-  $this->setEmail = ($email);
-  $this->setPassword = ($pass);
+  $this->setEmai($email);
+  $this->setPassword($pass);
 }
 
 public function getEmail(): string{
