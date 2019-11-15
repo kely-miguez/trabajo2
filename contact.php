@@ -6,7 +6,6 @@ if ($_POST) {
 	$email = $_POST['email'];
   $website = $_POST['website'];
   $message = $_POST['message'];
-
 	if (empty($firstname)) {
 		$errores['firstname'] = 'El campo nombre esta vacio..';
 	}
@@ -46,26 +45,15 @@ if ($_POST) {
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,600i,700,700i,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
-	<!-- Stylesheets -->
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<link rel="stylesheet" href="style.css">
-
-	<!-- Cusom css -->
-   <link rel="stylesheet" href="css/custom.css">
-
-	<!-- Modernizer js -->
-	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-	<!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-	<![endif]-->
-
-	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
 
-		<!-- Header -->
 		<header id="wn__header" class="oth-page header__area header__absolute sticky__header">
 			<div class="container-fluid">
 				<div class="row">
@@ -79,12 +67,11 @@ if ($_POST) {
 					<div class="col-lg-8 d-none d-lg-block">
 						<nav class="mainmenu__nav">
 							<ul class="meninmenu d-flex justify-content-start">
-								<li class="drop with--one--item"><a href="index.php">Home</a></li>
+								<li class="drop"><a href="index.php">Home</a></li>
 								<li class="drop"><a href="registro.php">Registro</a>
-							  <li class="drop"><a href="login.php">Iniciar sesion</a>
-								<li class="drop"><a href="shop-grid.php">Perfil</a>
-								<li class="drop with--one--item"><a href="faq.php">F.A.Q</a>
-								<li><a href="contact.php">Contacto</a></li>
+							  <li class="drop"><a href="login.php">Iniciar sesion</a>							
+								<li class="drop"><a href="faq.php">F.A.Q</a>
+							<li class="drop"><a href="contact.php">Contacto</a>
 							</ul>
 									</div>
 								</li>
@@ -92,114 +79,11 @@ if ($_POST) {
 								</li>
 									</div>
 								</li>
-
-									<div class="megamenu dropdown">
-										<ul class="item item01">
-
-
-											</li>
-
-										</ul>
+              			</li>
 									</div>
 								</li>
-
-
-
-										</ul>
-									</div>
-								</li>
-
-							</ul>
 						</nav>
-					</div>
-					<div class="col-md-8 col-sm-8 col-5 col-lg-2">
-						<ul class="header__sidebar__right d-flex justify-content-end align-items-center">
-							<li class="shop_search"><a class="search__active" href="#"></a></li>
-							<li class="wishlist"><a href="#"></a></li>
-							<li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun"></span></a>
-								<!-- Start Shopping Cart -->
-								<div class="block-minicart minicart__active">
-									<div class="minicart-content-wrapper">
-										<div class="micart__close">
-											<span>close</span>
-										</div>
-										<div class="items-total d-flex justify-content-between">
-											<span>3 items</span>
-											<span>Cart Subtotal</span>
-										</div>
-										<div class="total_amount text-right">
-											<span>$66.00</span>
-										</div>
-										<div class="mini_action checkout">
-											<a class="checkout__btn" href="cart.php">Go to Checkout</a>
-										</div>
-										<div class="single__items">
-											<div class="miniproduct">
-												<div class="item01 d-flex">
-													<div class="thumb">
-														<a href="product-details.php"><img src="images/product/sm-img/1.jpg" alt="product images"></a>
-													</div>
-													<div class="content">
-														<h6><a href="product-details.php">Voyage Yoga Bag</a></h6>
-														<span class="prize">$30.00</span>
-														<div class="product_prize d-flex justify-content-between">
-															<span class="qun">Qty: 01</span>
-															<ul class="d-flex justify-content-end">
-																<li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
-																<li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-												<div class="item01 d-flex mt--20">
-													<div class="thumb">
-														<a href="product-details.php"><img src="images/product/sm-img/3.jpg" alt="product images"></a>
-													</div>
-													<div class="content">
-														<h6><a href="product-details.php">Impulse Duffle</a></h6>
-														<span class="prize">$40.00</span>
-														<div class="product_prize d-flex justify-content-between">
-															<span class="qun">Qty: 03</span>
-															<ul class="d-flex justify-content-end">
-																<li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
-																<li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-												<div class="item01 d-flex mt--20">
-													<div class="thumb">
-														<a href="product-details.php"><img src="images/product/sm-img/2.jpg" alt="product images"></a>
-													</div>
-													<div class="content">
-														<h6><a href="product-details.php">Compete Track Tote</a></h6>
-														<span class="prize">$40.00</span>
-														<div class="product_prize d-flex justify-content-between">
-															<span class="qun">Qty: 03</span>
-															<ul class="d-flex justify-content-end">
-																<li><a href="#"><i class="zmdi zmdi-settings"></i></a></li>
-																<li><a href="#"><i class="zmdi zmdi-delete"></i></a></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="mini_action cart">
-											<a class="cart__btn" href="cart.php">View and edit cart</a>
-										</div>
-									</div>
-								</div>
-
-				<!-- End Mobile Menu -->
-	            <div class="mobile-menu d-block d-lg-none">
-	            </div>
-	            <!-- Mobile Menu -->
-			</div>
 		</header>
-		<!-- //Header -->
-
-        <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area bg-image--6">
             <div class="container">
                 <div class="row">
@@ -216,8 +100,6 @@ if ($_POST) {
                 </div>
             </div>
         </div>
-        <!-- End Bradcaump area -->
-        <!-- Start Contact Area -->
         <section class="wn_contact_area bg--white pt--80 pb--80">
 
         	<div class="container">
@@ -257,7 +139,6 @@ if ($_POST) {
         				<div class="wn__address">
         					<h2 class="contact__title">Contactanos.</h2>
         					<div class="wn__addres__wreapper">
-
         						<div class="single__address">
         							<i class="icon-location-pin icons"></i>
         							<div class="content">
@@ -265,7 +146,6 @@ if ($_POST) {
         								<p>666 5th Ave New York, NY, United</p>
         							</div>
         						</div>
-
         						<div class="single__address">
         							<i class="icon-phone icons"></i>
         							<div class="content">
@@ -273,7 +153,6 @@ if ($_POST) {
         								<p>1166546766</p>
         							</div>
         						</div>
-
         						<div class="single__address">
         							<i class="icon-envelope icons"></i>
         							<div class="content">
@@ -281,16 +160,13 @@ if ($_POST) {
         								<p>dayross@gmail.com</p>
         							</div>
         						</div>
-
-
         					</div>
         				</div>
         			</div>
         		</div>
         	</div>
         </section>
-        <!-- End Contact Area -->
-		<!-- Footer Area -->
+
 		<footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
 			<div class="footer-static-top">
 				<div class="container">
@@ -311,7 +187,6 @@ if ($_POST) {
 										<li><a href="#"><i class="bi bi-linkedin"></i></a></li>
 										<li><a href="#"><i class="bi bi-youtube"></i></a></li>
 									</ul>
-
 								</div>
 							</div>
 						</div>
@@ -328,18 +203,9 @@ if ($_POST) {
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</footer>
-		<!-- //Footer Area -->
-
-	</div>
-	<!-- //Main wrapper -->
-
-	<!-- JS Files -->
-
-
 </body>
 </html>

@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Preguntas y respuestas/DAYROSS</title>
+	<title>F.A.Q/DAYROSS</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Favicons -->
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/icon.png">
 
@@ -16,26 +16,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,600i,700,700i,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 
-	<!-- Stylesheets -->
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<link rel="stylesheet" href="style.css">
-
-	<!-- Cusom css -->
    <link rel="stylesheet" href="css/custom.css">
-
-	<!-- Modernizer js -->
-	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body>
-	<!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-	<![endif]-->
-
-	<!-- Main wrapper -->
-	<div class="wrapper" id="wrapper">
-
-		<!-- Header -->
 		<header id="wn__header" class="oth-page header__area header__absolute sticky__header">
 			<div class="container-fluid">
 				<div class="row">
@@ -49,12 +36,11 @@
 					<div class="col-lg-8 d-none d-lg-block">
 						<nav class="mainmenu__nav">
 							<ul class="meninmenu d-flex justify-content-start">
-								<li class="drop with--one--item"><a href="index.php">Home</a></li>
+								<li class="drop"><a href="index.php">Home</a></li>
 								<li class="drop"><a href="registro.php">Registro</a>
-							  <li class="drop"><a href="login.php">Iniciar sesion</a>
-								<li class="drop"><a href="shop-grid.php">Perfil</a>
-								<li class="drop with--one--item"><a href="faq.php">F.A.Q</a>
-								<li><a href="contact.php">Contacto</a></li>
+							  <li class="drop"><a href="login.php">Iniciar sesion</a>					
+								<li class="drop"><a href="faq.php">F.A.Q</a>
+								<li class="drop"><a href="contact.php">Contacto</a>
 							</ul>
 						</nav>
 									</div>
@@ -79,8 +65,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Bradcaump area -->
-		<!-- Start Faq Area -->
+
 		<section class="wn__faq__area bg--white pt--80 pb--60">
 			<div class="container">
 				<div class="row">
@@ -94,7 +79,6 @@
 						        <div class="acc-header" role="tab" id="headingOne">
 						          	<h5>
 						                <a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">¿Que formas de pago puedo aprovechar para realizar mi compra?</a>
-
 						          	</h5>
 						        </div>
 						        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
@@ -174,13 +158,11 @@
 					          		<div class="card-body">Siempre es importante seguir los consejos especificados en las etiquetas: lavar con agua fria (preferentemente al reves), no usar secarropas y evitar planchar sobre la estampa.</div>
 						        </div>
 						    </div>
-
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End Faq Area -->
-		<!-- Footer Area -->
+
 		<footer id="wn__footer" class="footer__area bg__cat--8 brown--color">
 			<div class="footer-static-top">
 				<div class="container">
@@ -201,7 +183,6 @@
 										<li><a href="#"><i class="bi bi-linkedin"></i></a></li>
 										<li><a href="#"><i class="bi bi-youtube"></i></a></li>
 									</ul>
-
 								</div>
 							</div>
 						</div>
@@ -218,22 +199,15 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</footer>
-		<!-- //Footer Area -->
-
 	</div>
-	<!-- //Main wrapper -->
 
-	<!-- JS Files -->
-	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
-	<script src="js/active.js"></script>
 
 </body>
 </html>

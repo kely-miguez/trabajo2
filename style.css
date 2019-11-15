@@ -521,7 +521,8 @@ a {
   color: #000000; }
 .color--white {
   color: #ffffff; }
-
+.color--nino {
+    color: blue; }
 /* Background Color */
 .bg--theme {
   background: #e59285; }
@@ -582,19 +583,21 @@ a {
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center; }
-.bg-image--2 {/*registro imagen portada*/
-  background-image: url(images/bg/registro.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-
-.bg-image--5 {
-  background-image: url(images/bg/contac.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
+       .bg-image--2 {/*registro imagen portada*/
+          background-image: url(images/bg/registro.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;}
+       .bg-image--5 {
+          background-image: url(images/bg/perfil.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center; }
+        .bg-image--11 {
+             background-image: url(images/bg/perfil.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center center; }
 
 .mt--20 {
   margin-top: 20px; }

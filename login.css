@@ -22,14 +22,14 @@
 
 .controles{
   width: 100%;
-  background-color: #17202A;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 15px;
   border: 1px solid #AEB6BF;
   font-family: 'Roboto', sans-serif; ;
   font-size: 16px;
-  color: white;
+  color: #ffffff;
 }
 
 .container p{
@@ -74,12 +74,6 @@ div.error{
     (max-whidth:480px){
       container{
         width: 100%;
-
     }
-
   }
-
-
-
-
 }
