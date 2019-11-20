@@ -1,5 +1,7 @@
 <?php
+require_once("./class/Autenticador.php");
 
+$autenticar = new Autenticador();
 
     if (isset($_COOKIE['email'])) {
 
@@ -9,8 +11,8 @@
         $_SESSION['admin'] = false;
     }
 
-    
-    if (!elUsuarioEstaLogeado()) {
+
+    if (!$autenticar->elUsuarioEstaLogeado()) {
         header('location:login.php');
     }
 
