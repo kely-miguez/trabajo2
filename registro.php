@@ -59,8 +59,7 @@
                    </div>
              </nav>
            </div>
-<<<<<<< HEAD
-=======
+
            <div class="col-md-8 col-sm-8 col-5 col-lg-2">
              <ul class="header__sidebar__right d-flex justify-content-end align-items-center">
                <li class="shop_search"><a class="search__active" href="#"></a></li>
@@ -187,7 +186,7 @@
                </div>
                <!-- Mobile Menu -->
        </div>
->>>>>>> 68a4d45bbd1d9fdf0e397eb70e935f0774d5fa32
+
      </header>
 
          <div class="ht__bradcaump__area bg-image--2">
@@ -292,7 +291,7 @@ $registroCorrecto=0;
 
      $hash1=password_hash($usuario['password'],PASSWORD_DEFAULT);
      $usuario['password']=$hash1;
-     $usuario['confirmacion']=$hash2;
+
 
 
      $usuarios[] = $usuario;
