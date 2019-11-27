@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+
+
   if($_POST){
     $errores=[];
     $usuario=[];
@@ -88,6 +90,7 @@ session_start();
   							  <li class="drop"><a href="login.php">Iniciar sesion</a>
   								<li class="drop"><a href="faq.php">F.A.Q</a>
   								<li class="drop"><a href="contact.php">Contacto</a>
+                    	<li class="drop"><a href="perfil.php">Perfil</a>
   							</ul>
   									</div>
   								</li>
