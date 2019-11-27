@@ -29,7 +29,11 @@
   border: 1px solid #AEB6BF;
   font-family: 'Roboto', sans-serif; ;
   font-size: 16px;
+<<<<<<< HEAD
   color: black;
+=======
+  color:black;
+>>>>>>> 4a391fe700b2dcdf667c7501be5b9cdabd736229
 }
 
 .container p{
